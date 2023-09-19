@@ -18,14 +18,13 @@ Comparison operator
  Amountofmoneyongiftcard = 185.50 dollars
 # 6. Create a variable that uses the input function and then print that variable. Your variable 
 # should ask a user to enter their name.  
-"name=" input(name=) print(name=)
+ Name= input("What is your name?") 
 # 7. You have been asked to create a program for a community center that wants to plan a cookout. 
 # The community center wants you to build a form program and capture several key data points. 
 # They want to know a visitor's full name, their age, if they have an allergy, and what their 
 # favorite food is. You need to create the appropriate varialbes with the appropriate data type
 # and use the input() function and print function to take in and print out the user's responses. 
-input("Full name=Jahmere Barber") input("age=14") input("allergy=false") input(favorite food=pancakes)
-print
+Full name=input("What is yor name?") age=input("What is your age?") allergy=input("Do you have an allergy?") favorite food=input("What is your favorite food?")
 # 8. You have been given a job to create a program for a sandwich shop. The sandwich shop
 # wants to be able to know if a user has a gluten allegery before they make the sandwich order.
 # If the user DOES have a glutten allergy, they need to eat a special type of bread, if the user DOES NOT
