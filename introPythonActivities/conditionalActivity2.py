@@ -8,6 +8,16 @@
 # "class is still in session."
 # your function should also alow the user to put in the time. The time should be 
 # formatted as a float. 
+def period_ending():
+    time_Of_Class=1.59
+    time_When_Class_Leaves = 1.00
+    if time_Of_Class > time_When_Class_Leaves:
+        print('Class is over. Time to go')
+    else:
+        print('Class is not over.')
+period_ending()        
+
+
 
 # 2. Write a function that uses a conditional statement. 
 # your function should determine what type a pet a user has depeding on the data provided by the user
@@ -16,6 +26,17 @@
 # IF the user types in "meow", the function should return a message saying that it is a cat.
 # ELSE, if it is none of the animal sounds the function should return a message saying it doesn't 
 # know what the animal is. 
+
+def type_of_pet():
+    user_sound = input('What pet are you?')
+    if user_sound == 'woof': 
+        print('You are a dog')
+    if user_sound == 'meow':
+        print('You are a cat')    
+    else:
+        print('I do not know what animal you are. ')   
+
+type_of_pet()
 
 # 3. Write a function that will take in a user name and height as parameters. 
 # Your function should evaluate and determine if the user is tall in enough to get on a roller coster.
