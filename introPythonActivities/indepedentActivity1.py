@@ -15,16 +15,7 @@ linkTwo= 'https://afternerd.com/blog/python-lists-for-absolute-beginners/'
 # data type they will be. 
 # Some examples: favorite_atheletes, favorite_games, favorite_books, etc.  
 
-def Favorite_videogames():
-
-    jahmere_Favorite_Videogames = input('What are your favorite games?')
-    if jahmere_Favorite_Videogames == 'Blackops2, CallofdutyGhost, GTA5, Fc24, and Minecraft':
-        print('These are Jahmere favorite games.')
-    else:
-        print('These are not Jahmere favorite games.')
-
-Favorite_videogames()
-
+games_list = ['COD','MK1','Tekken','Overwatch','Street Fighter']
 
 # 2. Find and print the specific item in each list based on their index in the list
 # HINT you will need to use a python built-in function that specifically lets you find items in a Python list. 
@@ -49,19 +40,60 @@ print(random_numbers[0])
 
 # HINT- part of solving this is that you will need to use the range() function. 
 
-
 number_list= [1,2,3,4,5,6,7,8,9,10]
 
-print(range(1,2,3,4,5,6,7,8,9,10))
+x= range(1,10,2)
+for n in x:
+    print(n)
+
 
 # 4. You have been hired by amazon to be an engineer. Your first assignment is to fix their
 # shopping cart function. Your goal is to create a line of code that will
-# allow users to enter the item they want as a string value, and add it to the items that
-# are already exist in the shopping_cart list variable. 
+# allow users to enter the item they want as a string value, and add it to the items that are already exist in the shopping_cart list variable. 
 # Once the new item is entered, a list of all items in the cart should print out. 
 
 # HINT - for this function you will need to use the append() function. 
 
 shopping_cart = ['notebook', 'pens','tape','mousepad']
 
+def amazon_Cart():
+    user_item= input('what are you buying? ')
+    shopping_cart.append(user_item)
+    print(shopping_cart)
 
+amazon_Cart()
+
+
+
+
+# sequence of seven variables under one name/ variable
+# collection of things/values that uses brackets and commas
+# store collections of data
+
+# define Python List- a data type that allows for multiple values within
+# one variable.
+
+
+
+
+list_of_items=['apple', 'orange', 'book']
+
+list_of_items_price=['1.00 3.00 10.00']
+apple_price= 1.00
+orange_price= 3.00
+book_price= 10.00
+
+def grocery_cart():
+    user_item = input('What is your item? ')
+    list_of_items.append(user_item)
+    print(list_of_items)
+grocery_cart()
+
+def grocery_cart_price():
+
+    user_item_price = input('what is the price of your item?')
+
+    list_of_items_price.append(user_item_price)
+    print(list_of_items_price)
+
+grocery_cart_price()
