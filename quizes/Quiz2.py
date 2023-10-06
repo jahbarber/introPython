@@ -44,7 +44,7 @@ day_time=5.00
 night_time=5.01
 
 def time():
-    Time_of_day = input('What is the time?')
+    Time_of_day = float (input('What is the time?'))
     if Time_of_day> day_time:
         print('It is night time.')
     else:
