@@ -78,22 +78,17 @@ amazon_Cart()
 
 list_of_items=['apple', 'orange', 'book']
 
-list_of_items_price=['1.00 3.00 10.00']
+
 apple_price= 1.00
 orange_price= 3.00
 book_price= 10.00
 
-def grocery_cart():
-    user_item = input('What is your item? ')
-    list_of_items.append(user_item)
+def checkout():
+    new_item_name = input('What is your item? ')
+    new_item_price = float(input('what is the price of your item?'))
+    list_of_items.append(new_item_name)
     print(list_of_items)
-grocery_cart()
-
-def grocery_cart_price():
-
-    user_item_price = input('what is the price of your item?')
-
-    list_of_items_price.append(user_item_price)
-    print(list_of_items_price)
-
-grocery_cart_price()
+    print(apple_price + orange_price + book_price)
+checkout()
+    
+        

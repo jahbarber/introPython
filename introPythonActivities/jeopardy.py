@@ -7,4 +7,3 @@
 def profileData(picture, name, city):
     print(picture + name + city)
 
-profileData()
