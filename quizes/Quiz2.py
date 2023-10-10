@@ -11,26 +11,22 @@
 # 1. Create a function that will multiply two (2) values that are passed into the function as arguments. 
 # Your function should print out the result of the two numbers that have been multiplied.
 
-list_Values=[]
-def Multiplier():
-    new_value=int (input('What is your value?'))
-    new_value2=int (input('What is your 2nd value?'))
-    list_Values.append((new_value*new_value2))
-    print(list_Values)
-Multiplier()
+def Multiply(num1, num2):
+    answer = num1 * num2
+    return answer
+print(Multiply(2,3))
 
 # 2. Creat a function that will do the following calculation. Your function should take in three argument. it should add the first
 # two arguments and then the sum of the first two (2) should be divided by the third argument. 
 # You function should then print the result. 
-list_Numbers=[]
-def Number():
-    new_number=int (input('What is your first value?'))
-    new_number2=int (input('What is your second value?'))
-    new_number3=int (input('What is your third value?'))
-    list_Numbers.append((new_number+new_number2 ,new_number3))
-    print(list_Numbers )
 
-Number()
+def calculate(num1, num2, num3):
+    answer= num1 + num2
+    print(int(answer/num3))
+
+# calculate(3,9,3)
+
+
 
 # 3. Create a elevator function that will run specific lines of code based on the conditions provided by a user. If the user types in 101,
 # the function should print out they are going to the boys latin office, if they type in 203, they are going to the gym, 
@@ -39,29 +35,47 @@ Number()
 
 # hint you will need to look into using conditional statements
 
-# 4. Write a simple conditional statement that uses a boolean that will print if it is daytime or nighttime.
-day_time=5.00
-night_time=5.01
-
-def time():
-    Time_of_day = float (input('What is the time?'))
-    if Time_of_day> day_time:
-        print('It is night time.')
+def elevator():
+    elevator_floor= input('what floor do you wnat to go to? ')
+    if elevator_floor== "203":
+        print('you are going to the gym')
+    elif elevator_floor=="g":
+        print('you are going to the lobby')
+    elif elevator_floor==str(101):
+        print("you are going to boys latin.")
     else:
-        print('It is day time.')
-time()
+        print('your floor does not exist please enter a value.')
 
+elevator()
+
+# 4. Write a simple conditional statement that uses a boolean that will print if it is daytime or nighttime.
+
+sunIsOut= True
+
+if sunIsOut == True:
+    print('it is day time.')
+else:
+    print("it is night time.")
 
 # 5. What function would you use if you wanted to add and element/ value to a list data type? Explain why you would use it.
-
+"append because it adds an item to a list."
 # 6. Do some research and find the correct built-in python function that will reverse the order of the following list.
 # then print your list in the reverse order.
 
+
 random_number_list = [0,1,2,3,4,5,6,7,8]
+random_number_list.reverse()
+print('reversedlist:', random_number_list)
+
 
 # 7.Do some research and find the correcrt built-in python function that will allow you to find the largest number in the following list.
 # then print the largest number
-ranom_number_list2 = [100,230,40,39403,19]
+
+
+random_number_list2 = [100,230,40,39403,19]
+
+random_number_list2.sort()
+print(random_number_list2[-1])
 
 # 8. A security company has hired you as an engineer to help them develop a program that will only let users into the building 
 # if they enter a specific password. They given you the following information to use to build this program.
@@ -70,6 +84,21 @@ ranom_number_list2 = [100,230,40,39403,19]
 # - if they get this correct, they then want them to enter another value, which is 3039
 # - if this is correct they will get access to the building
 # - if they have the wrong answer in either scenario they will get a message saying access denied. 
+
+def building_Code():
+    code = int(input('what is the code to enter the building? '))
+    if code == 1920:
+        print('great! please enter 2nd code:')
+        code2 = int(input('what is the 2nd code'))
+        if code2==3039:
+            print('correct,you may now enter the building!')
+        else:
+            print('second attempt is not correct!')
+    else:
+        print('first attempt is not correct!')
+
+building_Code()
+
 
 # 9. What does it mean to call a function? Why do we call functions. 
 # you can use the variable below to enter you ansewer. 
