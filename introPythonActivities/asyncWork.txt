@@ -1,0 +1,8 @@
+Battlefield 2 is a video game that was made using Python. Battlefield 2 is used to be played by other people.
+The engine refractor 2 was used in the building of Battlefield 2. Battlefield 2 was built by "DICE". During the creation of Battlefield 2, the program created "a startup registration point in Windows to automatically start when any user boots the PC."
+The program had to connect to the internet and not be interfered with so they used a firewall.
+Battlefield 2 used 92 files so it could be made such as a file called BF2.exe. 
+The _init_module was used in the creation of Battlefield 2 which is a Python built-in function
+Python was used in Battlefield 2 to implement scorekeeping and to have team balancing.
+Battlefield 2 uses Python for most of its add-ons anf functions.
+Battlefield 2's AI were used with Python.
