@@ -5,4 +5,6 @@ Battlefield 2 used 92 files so it could be made such as a file called BF2.exe.
 The _init_module was used in the creation of Battlefield 2 which is a Python built-in function
 Python was used in Battlefield 2 to implement scorekeeping and to have team balancing.
 Battlefield 2 uses Python for most of its add-ons anf functions.
-Battlefield 2's AI were used with Python.
+Battlefield 2's AI were used with Python. 
+
+I got my information from https://www.shouldiremoveit.com/.
