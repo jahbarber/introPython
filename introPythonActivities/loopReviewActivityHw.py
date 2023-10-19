@@ -10,7 +10,7 @@ def security_camera_people():
    
         people_On_Camera +=1
     if people_On_Camera>=1:
-       print('Alert, people on camera!')
+        print('Alert, people on camera!')
 security_camera_people()
 
 
