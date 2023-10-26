@@ -7,9 +7,11 @@
 #For loop-A passcode and An engine.
 # 3. Create a FOR loop that will go through a list of names 
 # and print all the names that start with the letter "R".
-names_with_r='Rebecca','Robert', 'Rose'
+
 names=['Michael','Rebecca','William','Kareem','Robert','Rose','Jason']
-for names in names_with_r :
-    if names_with_r := ('Rebecca, Robert,Rose'):
-        print (names_with_r, 'are your names')
+
+for firstLetter in names:
+    if firstLetter [0] == "R":
+        print(firstLetter)
+        
 
