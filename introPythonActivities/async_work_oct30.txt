@@ -1,0 +1,45 @@
+MONDAY ASYNC ACTIVITY
+
+Please visit and read the articles found on the links below:
+
+- Documentation
+https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/#:~:text=Your%20first%20steps%20in%20documentation,will%20serve%20your%20project%20well.
+
+- Git Commit Messages
+https://dev.to/chrissiemhrk/git-commit-message-5e21
+
+When you are finished reading the articles, answer the following questions and commit and push 
+your work to your repository. 
+
+Your document should be named as followed async_Work_oct30.txt.
+
+This assignment is due by the end of class in order to get credit. 
+_______________________________________________________________________________
+
+1. List and explain three 3 reasons why programmers write documentation. 
+To let people know why they should use the prgrammers' program.
+
+To help people figure out how the program works.
+
+To teach people how to install the program.
+
+2. In your own words, describe what a README.md document is.
+
+A type of document that people use to grab others attention.
+
+
+3. Based on what your read, what are four (4) things that should be in a README document. 
+
+Four things that should be in a README document are a simple template, the file being named README,
+the features of the program being used,and your information if the person needs support.
+
+
+4. Name and describe three (3) reasons why programmers write commmit messages when using GitHub.
+
+To help people understand what changes were made,To keep track of what changes were made,and 
+to know what changes you made exactly.
+
+
+5. Describe three things (3) negative outcomes that could happen if a programmer has bad or no documentation.
+
+People won't know what the changes are,You may not remember what changes you made, and to keep track of the changes.
