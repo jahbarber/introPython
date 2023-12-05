@@ -29,7 +29,7 @@ def smartWatch():
     #input to take in the user selection.
     print('please select a watch option.')
    
-    print('type 1 for time, 2 for the next upcoming holiday , 3 for temperature in fahrenheit.')
+    print('type 1 for time and date, 2 for the next upcoming holiday , 3 for temperature in fahrenheit.')
     
     selection=int(input('please enter a number: '))
     
