@@ -3,20 +3,20 @@
 
 "An argument is the data inside the round brackets and a parameter is the round brackets"
 
-"parameter is a place holder."
-"argument is the actual data."
+#"parameter is a place holder."
+#"argument is the actual data."
 
-"parameter is variable listed inside of function defination."
-"argument is assigned to the function when its call."
+#parameter is variable listed inside of function defination.
+#"argument is assigned to the function when its call."
 
 # 2. In your own words, describe what 
 # a conditional statement (if/else) is 
 
-"A conditional statement is an if or else statement which is when somebody does a specific function that is in the instructions do this or do not do anything"
-"if money is taken out of an atm-give them physical money."
-"else-don't give them money."
+#"A conditional statement is an if or else statement which is when somebody does a specific function that is in the instructions do this or do not do anything"
+#"if money is taken out of an atm-give them physical money."
+#"else-don't give them money."
 
-"executes a block of code if a specific condition is met."
+#"executes a block of code if a specific condition is met."
 
 # 3. write a simple conditional state using a comparision operator(greater than, less than, etc. )
 amount_of_money = 5.00
