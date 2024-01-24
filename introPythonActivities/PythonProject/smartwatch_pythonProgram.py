@@ -12,7 +12,7 @@ def holiday():
     elif Holiday==1:
         print ('The next holiday is new year day and mlk day.`')
     elif Holiday==2:
-        print('The next holiday is valentines day.')
+        print('The next holiday is valentines day. ')
     else:
         print('sorry, can only search holiday within the next 90 days. ')
 
@@ -40,6 +40,6 @@ def smartWatch():
     elif (selection == 3):
         temp_inFahrenheit() 
     else:
-        print('please select somthing')
+        print('This is not an option please select an actual option.')
 
 smartWatch()  
